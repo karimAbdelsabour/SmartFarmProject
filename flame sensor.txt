@@ -1,0 +1,15 @@
+const int flameSensorPin = 26;  
+void setup() {
+  Serial.begin(9600);
+  pinMode(flameSensorPin, INPUT);
+}
+
+void loop() {
+  int sensorValue = digitalRead(flameSensorPin);
+  if (sensorValue == HIGH) {
+    Serial.println("Flame detected!");
+  } else {
+    Serial.println("No flame detected.");
+  }
+  delay(500);
+}
