@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Farm</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="control.html" class="nav-link">Control</a>
+                </li>
+                <li class="nav-item">
+                    <a href="house.html" class="nav-link">Green House</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ai.html" class="nav-link">Disease Detection</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section Start -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Smart Farm Dashboard</h1>
+            <p>Monitor and control your farm environment efficiently with real-time data and automation.</p>
+            <a href="#control-section" class="btn">Get Started</a>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Information Sections Start -->
+    <container>
+        <section id="control-section"  class="section">
+            <h2>Control Page</h2>
+            <p>On the Control page, you can manage various devices in your smart farm, including turning on/off LEDs, water pumps, fans, and buzzers. Automate your farm's operations with ease.</p>
+        </section>
+        
+        <section id="greenhouse-section"  class="section">
+            <h2>Green House Page</h2>
+            <p>Monitor and control the environment of your greenhouse. Ensure optimal conditions for your crops by tracking temperature, humidity, soil moisture, and water levels.</p>
+        </section>
+        
+        <section id="disease-section"  class="section">
+            <h2>Disease Detection Page</h2>
+            <p>Use advanced AI technology to detect diseases in your crops early. Upload images of plants, and our system will analyze them for potential signs of disease, helping you take action promptly.</p>
+        </section>
+    </container>
+    <!-- Information Sections End -->
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

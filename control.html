@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control</title>
+  <link rel="stylesheet" href="control.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <!--nav-->
+  <header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Farm</a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="control.html" class="nav-link">Control</a></li>
+            <li class="nav-item"><a href="house.html" class="nav-link">Green House</a></li>
+            <li class="nav-item"><a href="ai.html" class="nav-link">Disease Detection</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+  </header>
+  <container>
+    <!-- Fire Alert -->
+    <div class="section">
+      <div class="section-title"><h1>Fire Detection</h1></div>
+      <div id="fire-alert" class="alert alert-fire-safe">
+        <ul>
+          <li><i id="fire-icon" class="fas fa-fire"></i></li>
+          <li><p>Fire Status: <span id="fire-warning-status">Safe</span></p></li>
+        </ul>
+      </div>
+      <div class="content">
+          <div class="state"><p>Buzzer Status: <span id="buzzer-status">Inactive</span></p></div>
+          <button id="buzzer-toggle">Turn On Buzzer</button>
+      </div>
+    </div>
+
+    <!-- Rain Detection Alert -->
+    <div class="section">
+      <div class="section-title"><h1>Rain Detection</h1></div>
+      <div id="rain-alert" class="alert alert-no-rain">
+        <ul>
+          <li><i id="rain-icon" class="fas fa-cloud"></i></li>
+          <li><p>Rain Detection: <span id="rain-detection-status">Not Detected</span></p></li>
+        </ul>
+      </div>
+      <div class="content">
+          <div class="state"><p>Water Pump Status: <span id="water-pump-status">Inactive</span></p></div>
+          <button id="water-pump-toggle">Turn On Water Pump</button>
+      </div>
+    </div>
+  </container>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
