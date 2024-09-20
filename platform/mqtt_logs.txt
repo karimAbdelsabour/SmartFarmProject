@@ -1,0 +1,482 @@
+2024-09-20T21:37:37.303Z - Connected to HiveMQ MQTT broker
+2024-09-20T21:37:37.387Z - Subscribed to topics: temperature_humidity_topic,soil_moisture_topic,water_pump_topic,motor_topic,rain_sensor_topic,flame_sensor_topic,leds_topic,water_level_topic,ldr_topic,leds_control_topic,water_pump_control_topic,fan_control_topic,buzzer_control_topic
+2024-09-20T21:37:41.324Z - Received message from temperature_humidity_topic: {"temperature": 45.86, "humidity": 47.69}
+2024-09-20T21:37:41.400Z - Received message from water_level_topic: {"water_level": 36.34}
+2024-09-20T21:37:41.402Z - Received message from soil_moisture_topic: {"soil_moisture": 57.63}
+2024-09-20T21:37:41.400Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:37:41.401Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:37:41.402Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:37:41.403Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:37:41.404Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:37:41.403Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:37:46.324Z - Received message from temperature_humidity_topic: {"temperature": 26.22, "humidity": 45.93}
+2024-09-20T21:37:46.398Z - Received message from water_level_topic: {"water_level": 1.42}
+2024-09-20T21:37:46.404Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:37:46.404Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:37:46.405Z - Received message from soil_moisture_topic: {"soil_moisture": 14.93}
+2024-09-20T21:37:46.405Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:37:46.406Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:37:46.406Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:37:46.406Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:37:51.337Z - Received message from temperature_humidity_topic: {"temperature": 32.1, "humidity": 43.25}
+2024-09-20T21:37:51.415Z - Received message from water_level_topic: {"water_level": 86.06}
+2024-09-20T21:37:51.416Z - Received message from soil_moisture_topic: {"soil_moisture": 28.8}
+2024-09-20T21:37:51.415Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:37:51.416Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:37:51.417Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:37:51.417Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:37:51.417Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:37:51.418Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:37:56.329Z - Received message from temperature_humidity_topic: {"temperature": 41.24, "humidity": 51.71}
+2024-09-20T21:37:56.407Z - Received message from water_level_topic: {"water_level": 50.99}
+2024-09-20T21:37:56.409Z - Received message from soil_moisture_topic: {"soil_moisture": 63.68}
+2024-09-20T21:37:56.408Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:37:56.410Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:37:56.409Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:37:56.408Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:37:56.410Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:37:56.411Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:00.242Z - Received message from buzzer_control_topic: 1
+2024-09-20T21:38:01.345Z - Received message from temperature_humidity_topic: {"temperature": 19.59, "humidity": 56.4}
+2024-09-20T21:38:01.420Z - Received message from water_level_topic: {"water_level": 93.19}
+2024-09-20T21:38:01.421Z - Received message from soil_moisture_topic: {"soil_moisture": 39.39}
+2024-09-20T21:38:01.421Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:38:01.422Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:01.423Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:38:01.422Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:38:01.423Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:38:01.421Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:02.273Z - Received message from water_pump_control_topic: 1
+2024-09-20T21:38:03.908Z - Received message from water_pump_control_topic: 0
+2024-09-20T21:38:06.335Z - Received message from temperature_humidity_topic: {"temperature": 22.53, "humidity": 69.27}
+2024-09-20T21:38:06.408Z - Received message from water_level_topic: {"water_level": 56.33}
+2024-09-20T21:38:06.408Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:38:06.409Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:06.410Z - Received message from soil_moisture_topic: {"soil_moisture": 90.95}
+2024-09-20T21:38:06.410Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:38:06.410Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:38:06.411Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:06.409Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:38:11.335Z - Received message from temperature_humidity_topic: {"temperature": 20.49, "humidity": 44.13}
+2024-09-20T21:38:11.498Z - Received message from water_level_topic: {"water_level": 0.36}
+2024-09-20T21:38:11.500Z - Received message from soil_moisture_topic: {"soil_moisture": 64.13}
+2024-09-20T21:38:11.499Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:38:11.500Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:11.500Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:38:11.501Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:38:11.502Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:38:11.501Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:38:16.338Z - Received message from temperature_humidity_topic: {"temperature": 44.89, "humidity": 33.24}
+2024-09-20T21:38:16.414Z - Received message from water_level_topic: {"water_level": 97.5}
+2024-09-20T21:38:16.416Z - Received message from soil_moisture_topic: {"soil_moisture": 45.58}
+2024-09-20T21:38:16.415Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:38:16.416Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:38:16.417Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:38:16.417Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:16.418Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:38:16.416Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:38:21.340Z - Received message from temperature_humidity_topic: {"temperature": 49.5, "humidity": 50.57}
+2024-09-20T21:38:21.416Z - Received message from water_level_topic: {"water_level": 77.54}
+2024-09-20T21:38:21.417Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:38:21.417Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:38:21.416Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:38:21.418Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:38:21.418Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:38:21.418Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:21.419Z - Received message from soil_moisture_topic: {"soil_moisture": 31.3}
+2024-09-20T21:38:26.343Z - Received message from temperature_humidity_topic: {"temperature": 36.79, "humidity": 40.03}
+2024-09-20T21:38:26.420Z - Received message from water_level_topic: {"water_level": 2.95}
+2024-09-20T21:38:26.422Z - Received message from soil_moisture_topic: {"soil_moisture": 85.44}
+2024-09-20T21:38:26.422Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:38:26.421Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:26.423Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:26.423Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:38:26.421Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:38:26.423Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:38:31.351Z - Received message from temperature_humidity_topic: {"temperature": 35.3, "humidity": 51.11}
+2024-09-20T21:38:31.423Z - Received message from water_level_topic: {"water_level": 11.32}
+2024-09-20T21:38:31.424Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:38:31.424Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:38:31.425Z - Received message from soil_moisture_topic: {"soil_moisture": 85.47}
+2024-09-20T21:38:31.425Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:38:31.425Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:38:31.426Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:31.426Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:38:36.352Z - Received message from temperature_humidity_topic: {"temperature": 22.24, "humidity": 34.66}
+2024-09-20T21:38:36.423Z - Received message from water_level_topic: {"water_level": 75.93}
+2024-09-20T21:38:36.424Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:38:36.424Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:36.425Z - Received message from soil_moisture_topic: {"soil_moisture": 22.88}
+2024-09-20T21:38:36.424Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:38:36.425Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:38:36.426Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:38:36.426Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:41.365Z - Received message from temperature_humidity_topic: {"temperature": 19.74, "humidity": 69.28}
+2024-09-20T21:38:41.437Z - Received message from water_level_topic: {"water_level": 91.87}
+2024-09-20T21:38:41.437Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:38:41.438Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:38:41.438Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:41.438Z - Received message from soil_moisture_topic: {"soil_moisture": 83.82}
+2024-09-20T21:38:41.440Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:38:41.440Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:38:41.439Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:38:46.363Z - Received message from temperature_humidity_topic: {"temperature": 15.36, "humidity": 54.53}
+2024-09-20T21:38:46.438Z - Received message from water_level_topic: {"water_level": 92.87}
+2024-09-20T21:38:46.439Z - Received message from soil_moisture_topic: {"soil_moisture": 35.61}
+2024-09-20T21:38:46.440Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:38:46.439Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:46.440Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:38:46.441Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:38:46.441Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:38:46.438Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:38:51.366Z - Received message from temperature_humidity_topic: {"temperature": 23.6, "humidity": 35.04}
+2024-09-20T21:38:51.440Z - Received message from water_level_topic: {"water_level": 52.67}
+2024-09-20T21:38:51.441Z - Received message from soil_moisture_topic: {"soil_moisture": 11.06}
+2024-09-20T21:38:51.442Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:38:51.441Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:38:51.440Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:38:51.442Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:38:51.443Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:38:51.442Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:38:56.368Z - Received message from temperature_humidity_topic: {"temperature": 17.06, "humidity": 44.73}
+2024-09-20T21:38:56.447Z - Received message from water_level_topic: {"water_level": 67.2}
+2024-09-20T21:38:56.447Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:38:56.448Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:38:56.448Z - Received message from soil_moisture_topic: {"soil_moisture": 92.5}
+2024-09-20T21:38:56.448Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:38:56.449Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:38:56.449Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:38:56.449Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:39:01.394Z - Received message from temperature_humidity_topic: {"temperature": 45.82, "humidity": 54.86}
+2024-09-20T21:39:01.472Z - Received message from water_level_topic: {"water_level": 26.73}
+2024-09-20T21:39:01.480Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:01.481Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:39:01.482Z - Received message from soil_moisture_topic: {"soil_moisture": 49.68}
+2024-09-20T21:39:01.481Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:39:01.481Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:01.482Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:39:01.483Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:39:06.377Z - Received message from temperature_humidity_topic: {"temperature": 17.09, "humidity": 61.4}
+2024-09-20T21:39:06.497Z - Received message from water_level_topic: {"water_level": 21.9}
+2024-09-20T21:39:06.498Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:39:06.498Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:39:06.497Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:06.499Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:39:06.499Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:06.500Z - Received message from soil_moisture_topic: {"soil_moisture": 77.81}
+2024-09-20T21:39:06.498Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:39:11.381Z - Received message from temperature_humidity_topic: {"temperature": 32.52, "humidity": 32.84}
+2024-09-20T21:39:11.498Z - Received message from water_level_topic: {"water_level": 25.44}
+2024-09-20T21:39:11.499Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:11.499Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:39:11.500Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:39:11.500Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:39:11.501Z - Received message from soil_moisture_topic: {"soil_moisture": 10.1}
+2024-09-20T21:39:11.501Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:39:11.500Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:39:16.380Z - Received message from temperature_humidity_topic: {"temperature": 26.87, "humidity": 39.02}
+2024-09-20T21:39:16.456Z - Received message from water_level_topic: {"water_level": 83.48}
+2024-09-20T21:39:16.458Z - Received message from soil_moisture_topic: {"soil_moisture": 10.92}
+2024-09-20T21:39:16.456Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:16.457Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:39:16.458Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:16.458Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:39:16.459Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:39:16.459Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:39:21.383Z - Received message from temperature_humidity_topic: {"temperature": 37.88, "humidity": 64.53}
+2024-09-20T21:39:21.729Z - Received message from water_level_topic: {"water_level": 57.76}
+2024-09-20T21:39:21.745Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:21.746Z - Received message from soil_moisture_topic: {"soil_moisture": 92.23}
+2024-09-20T21:39:21.747Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:39:21.746Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:39:21.747Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:39:21.747Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:39:21.748Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:26.404Z - Received message from temperature_humidity_topic: {"temperature": 32.42, "humidity": 59.04}
+2024-09-20T21:39:26.482Z - Received message from water_level_topic: {"water_level": 14.81}
+2024-09-20T21:39:26.483Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:26.483Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:39:26.484Z - Received message from soil_moisture_topic: {"soil_moisture": 62.59}
+2024-09-20T21:39:26.484Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:39:26.485Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:39:26.485Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:39:26.484Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:39:31.389Z - Received message from temperature_humidity_topic: {"temperature": 21.39, "humidity": 40.32}
+2024-09-20T21:39:31.478Z - Received message from water_level_topic: {"water_level": 73.23}
+2024-09-20T21:39:31.479Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:39:31.479Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:39:31.480Z - Received message from soil_moisture_topic: {"soil_moisture": 58.93}
+2024-09-20T21:39:31.481Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:31.480Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:39:31.481Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:39:31.480Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:39:36.464Z - Received message from temperature_humidity_topic: {"temperature": 15.09, "humidity": 47.32}
+2024-09-20T21:39:36.656Z - Received message from water_level_topic: {"water_level": 62.41}
+2024-09-20T21:39:36.657Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:36.658Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:39:36.658Z - Received message from soil_moisture_topic: {"soil_moisture": 48.65}
+2024-09-20T21:39:36.658Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:39:36.659Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:39:36.660Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:39:36.659Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:41.390Z - Received message from temperature_humidity_topic: {"temperature": 30.48, "humidity": 50.03}
+2024-09-20T21:39:41.458Z - Received message from water_level_topic: {"water_level": 26.0}
+2024-09-20T21:39:41.459Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:39:41.460Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:39:41.463Z - Received message from soil_moisture_topic: {"soil_moisture": 77.0}
+2024-09-20T21:39:41.463Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:41.464Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:39:41.464Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:39:41.464Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:39:46.387Z - Received message from temperature_humidity_topic: {"temperature": 29.52, "humidity": 56.28}
+2024-09-20T21:39:46.461Z - Received message from water_level_topic: {"water_level": 75.39}
+2024-09-20T21:39:46.463Z - Received message from soil_moisture_topic: {"soil_moisture": 48.19}
+2024-09-20T21:39:46.463Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:39:46.462Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:39:46.464Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:46.464Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:39:46.463Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:39:46.464Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:39:51.388Z - Received message from temperature_humidity_topic: {"temperature": 17.96, "humidity": 66.13}
+2024-09-20T21:39:51.463Z - Received message from water_level_topic: {"water_level": 32.76}
+2024-09-20T21:39:51.464Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:39:51.465Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:39:51.465Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:39:51.466Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:39:51.465Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:39:51.467Z - Received message from soil_moisture_topic: {"soil_moisture": 33.06}
+2024-09-20T21:39:51.466Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:39:56.394Z - Received message from temperature_humidity_topic: {"temperature": 40.19, "humidity": 42.26}
+2024-09-20T21:39:56.470Z - Received message from water_level_topic: {"water_level": 93.45}
+2024-09-20T21:39:56.471Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:39:56.472Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:39:56.472Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:39:56.472Z - Received message from soil_moisture_topic: {"soil_moisture": 84.72}
+2024-09-20T21:39:56.471Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:39:56.473Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:39:56.474Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:01.405Z - Received message from temperature_humidity_topic: {"temperature": 30.1, "humidity": 66.59}
+2024-09-20T21:40:01.492Z - Received message from water_level_topic: {"water_level": 29.96}
+2024-09-20T21:40:01.493Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:40:01.492Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:40:01.493Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:40:01.494Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:40:01.493Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:01.493Z - Received message from soil_moisture_topic: {"soil_moisture": 63.51}
+2024-09-20T21:40:01.494Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:06.400Z - Received message from temperature_humidity_topic: {"temperature": 46.63, "humidity": 47.03}
+2024-09-20T21:40:06.482Z - Received message from water_level_topic: {"water_level": 71.51}
+2024-09-20T21:40:06.483Z - Received message from soil_moisture_topic: {"soil_moisture": 11.41}
+2024-09-20T21:40:06.484Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:06.483Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:40:06.484Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:40:06.484Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:40:06.485Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:40:06.482Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:40:11.401Z - Received message from temperature_humidity_topic: {"temperature": 48.41, "humidity": 52.26}
+2024-09-20T21:40:11.523Z - Received message from water_level_topic: {"water_level": 66.91}
+2024-09-20T21:40:11.524Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:40:11.524Z - Received message from soil_moisture_topic: {"soil_moisture": 69.52}
+2024-09-20T21:40:11.524Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:40:11.523Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:40:11.525Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:40:11.526Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:11.525Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:40:16.403Z - Received message from temperature_humidity_topic: {"temperature": 41.98, "humidity": 51.86}
+2024-09-20T21:40:16.494Z - Received message from water_level_topic: {"water_level": 68.99}
+2024-09-20T21:40:16.494Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:40:16.495Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:40:16.496Z - Received message from soil_moisture_topic: {"soil_moisture": 34.43}
+2024-09-20T21:40:16.495Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:40:16.496Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:40:16.497Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:40:16.496Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:40:21.417Z - Received message from temperature_humidity_topic: {"temperature": 38.69, "humidity": 55.25}
+2024-09-20T21:40:21.494Z - Received message from water_level_topic: {"water_level": 84.53}
+2024-09-20T21:40:21.496Z - Received message from soil_moisture_topic: {"soil_moisture": 16.03}
+2024-09-20T21:40:21.497Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:40:21.495Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:40:21.497Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:40:21.497Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:40:21.498Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:21.496Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:40:26.462Z - Received message from temperature_humidity_topic: {"temperature": 27.2, "humidity": 40.75}
+2024-09-20T21:40:26.696Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:40:26.697Z - Received message from soil_moisture_topic: {"soil_moisture": 56.14}
+2024-09-20T21:40:26.695Z - Received message from water_level_topic: {"water_level": 40.69}
+2024-09-20T21:40:26.697Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:40:26.698Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:26.697Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:40:26.698Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:26.699Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:40:31.428Z - Received message from temperature_humidity_topic: {"temperature": 26.78, "humidity": 56.1}
+2024-09-20T21:40:31.486Z - Received message from water_level_topic: {"water_level": 61.14}
+2024-09-20T21:40:31.488Z - Received message from soil_moisture_topic: {"soil_moisture": 41.22}
+2024-09-20T21:40:31.487Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:40:31.488Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:40:31.488Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:31.487Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:40:31.489Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:31.489Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:40:36.415Z - Received message from temperature_humidity_topic: {"temperature": 30.79, "humidity": 46.56}
+2024-09-20T21:40:36.496Z - Received message from water_level_topic: {"water_level": 51.85}
+2024-09-20T21:40:36.497Z - Received message from soil_moisture_topic: {"soil_moisture": 81.34}
+2024-09-20T21:40:36.498Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:40:36.497Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:40:36.498Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:36.496Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:40:36.498Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:40:36.499Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:40:41.441Z - Received message from temperature_humidity_topic: {"temperature": 23.55, "humidity": 59.58}
+2024-09-20T21:40:41.526Z - Received message from water_level_topic: {"water_level": 29.71}
+2024-09-20T21:40:41.527Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:40:41.527Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:40:41.528Z - Received message from soil_moisture_topic: {"soil_moisture": 59.23}
+2024-09-20T21:40:41.527Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:40:41.528Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:40:41.529Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:40:41.529Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:46.429Z - Received message from temperature_humidity_topic: {"temperature": 49.36, "humidity": 46.08}
+2024-09-20T21:40:46.505Z - Received message from water_level_topic: {"water_level": 70.83}
+2024-09-20T21:40:46.506Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:40:46.507Z - Received message from soil_moisture_topic: {"soil_moisture": 27.93}
+2024-09-20T21:40:46.507Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:40:46.507Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:40:46.510Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:46.510Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:40:46.511Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:51.430Z - Received message from temperature_humidity_topic: {"temperature": 31.55, "humidity": 30.98}
+2024-09-20T21:40:51.507Z - Received message from water_level_topic: {"water_level": 87.59}
+2024-09-20T21:40:51.508Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:40:51.509Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:40:51.509Z - Received message from soil_moisture_topic: {"soil_moisture": 75.13}
+2024-09-20T21:40:51.510Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:40:51.508Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:40:51.510Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:40:51.510Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:40:56.433Z - Received message from temperature_humidity_topic: {"temperature": 31.82, "humidity": 59.11}
+2024-09-20T21:40:56.509Z - Received message from water_level_topic: {"water_level": 12.34}
+2024-09-20T21:40:56.510Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:40:56.510Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:40:56.511Z - Received message from soil_moisture_topic: {"soil_moisture": 64.58}
+2024-09-20T21:40:56.511Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:40:56.510Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:40:56.512Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:40:56.511Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:01.438Z - Received message from temperature_humidity_topic: {"temperature": 34.88, "humidity": 35.3}
+2024-09-20T21:41:01.539Z - Received message from water_level_topic: {"water_level": 21.62}
+2024-09-20T21:41:01.540Z - Received message from soil_moisture_topic: {"soil_moisture": 56.28}
+2024-09-20T21:41:01.540Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:41:01.540Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:41:01.541Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:41:01.541Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:41:01.542Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:01.539Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:41:06.439Z - Received message from temperature_humidity_topic: {"temperature": 45.24, "humidity": 43.9}
+2024-09-20T21:41:06.513Z - Received message from water_level_topic: {"water_level": 78.57}
+2024-09-20T21:41:06.515Z - Received message from soil_moisture_topic: {"soil_moisture": 87.66}
+2024-09-20T21:41:06.514Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:41:06.514Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:41:06.515Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:41:06.516Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:06.515Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:06.516Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:11.439Z - Received message from temperature_humidity_topic: {"temperature": 31.87, "humidity": 44.67}
+2024-09-20T21:41:11.561Z - Received message from water_level_topic: {"water_level": 11.0}
+2024-09-20T21:41:11.562Z - Received message from soil_moisture_topic: {"soil_moisture": 55.82}
+2024-09-20T21:41:11.562Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:41:11.562Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:41:11.562Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:11.563Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:11.563Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:41:11.561Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:41:16.448Z - Received message from temperature_humidity_topic: {"temperature": 45.72, "humidity": 62.15}
+2024-09-20T21:41:16.516Z - Received message from water_level_topic: {"water_level": 86.94}
+2024-09-20T21:41:16.517Z - Received message from soil_moisture_topic: {"soil_moisture": 95.87}
+2024-09-20T21:41:16.518Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:16.517Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:41:16.517Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:41:16.519Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:41:16.518Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:16.518Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:41:21.445Z - Received message from temperature_humidity_topic: {"temperature": 24.14, "humidity": 57.87}
+2024-09-20T21:41:21.521Z - Received message from water_level_topic: {"water_level": 50.3}
+2024-09-20T21:41:21.522Z - Received message from soil_moisture_topic: {"soil_moisture": 33.67}
+2024-09-20T21:41:21.522Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:41:21.521Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:41:21.523Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:21.523Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:41:21.524Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:21.523Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:26.447Z - Received message from temperature_humidity_topic: {"temperature": 42.63, "humidity": 59.61}
+2024-09-20T21:41:26.524Z - Received message from water_level_topic: {"water_level": 85.33}
+2024-09-20T21:41:26.524Z - Received message from soil_moisture_topic: {"soil_moisture": 89.91}
+2024-09-20T21:41:26.525Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:41:26.526Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:41:26.524Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:41:26.525Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:26.526Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:26.526Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:41:31.449Z - Received message from temperature_humidity_topic: {"temperature": 27.14, "humidity": 37.3}
+2024-09-20T21:41:31.524Z - Received message from water_level_topic: {"water_level": 80.75}
+2024-09-20T21:41:31.525Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:41:31.525Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:41:31.526Z - Received message from soil_moisture_topic: {"soil_moisture": 47.08}
+2024-09-20T21:41:31.526Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:31.526Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:31.527Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:41:31.525Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:36.511Z - Received message from temperature_humidity_topic: {"temperature": 30.26, "humidity": 58.12}
+2024-09-20T21:41:36.588Z - Received message from water_level_topic: {"water_level": 5.42}
+2024-09-20T21:41:36.589Z - Received message from soil_moisture_topic: {"soil_moisture": 70.9}
+2024-09-20T21:41:36.590Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:41:36.590Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:41:36.591Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:36.589Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:41:36.591Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:41:36.592Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:41:41.444Z - Received message from temperature_humidity_topic: {"temperature": 35.67, "humidity": 35.04}
+2024-09-20T21:41:41.520Z - Received message from water_level_topic: {"water_level": 96.93}
+2024-09-20T21:41:41.520Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:41:41.520Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:41:41.521Z - Received message from soil_moisture_topic: {"soil_moisture": 54.54}
+2024-09-20T21:41:41.522Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:41:41.521Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:41.522Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:41.522Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:46.455Z - Received message from temperature_humidity_topic: {"temperature": 18.8, "humidity": 60.66}
+2024-09-20T21:41:46.597Z - Received message from water_level_topic: {"water_level": 85.38}
+2024-09-20T21:41:46.598Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:41:46.598Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:41:46.599Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:41:46.599Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:46.600Z - Received message from soil_moisture_topic: {"soil_moisture": 25.79}
+2024-09-20T21:41:46.599Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:41:46.600Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:51.450Z - Received message from temperature_humidity_topic: {"temperature": 45.06, "humidity": 57.62}
+2024-09-20T21:41:51.528Z - Received message from water_level_topic: {"water_level": 33.95}
+2024-09-20T21:41:51.529Z - Received message from soil_moisture_topic: {"soil_moisture": 90.52}
+2024-09-20T21:41:51.528Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:41:51.529Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:41:51.530Z - Received message from motor_topic: {"motor": 1}
+2024-09-20T21:41:51.530Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:41:51.531Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:41:51.530Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:56.452Z - Received message from temperature_humidity_topic: {"temperature": 28.15, "humidity": 39.53}
+2024-09-20T21:41:56.528Z - Received message from water_level_topic: {"water_level": 20.78}
+2024-09-20T21:41:56.528Z - Received message from leds_topic: {"leds": 0}
+2024-09-20T21:41:56.529Z - Received message from rain_sensor_topic: {"rain_sensor": 1}
+2024-09-20T21:41:56.529Z - Received message from soil_moisture_topic: {"soil_moisture": 21.13}
+2024-09-20T21:41:56.528Z - Received message from ldr_topic: {"ldr": 1}
+2024-09-20T21:41:56.530Z - Received message from motor_topic: {"motor": 0}
+2024-09-20T21:41:56.530Z - Received message from water_pump_topic: {"water_pump": 0}
+2024-09-20T21:41:56.530Z - Received message from flame_sensor_topic: {"flame_sensor": 0}
+2024-09-20T21:42:01.458Z - Received message from temperature_humidity_topic: {"temperature": 40.63, "humidity": 32.03}
+2024-09-20T21:42:01.536Z - Received message from water_level_topic: {"water_level": 51.67}
+2024-09-20T21:42:01.537Z - Received message from leds_topic: {"leds": 1}
+2024-09-20T21:42:01.537Z - Received message from rain_sensor_topic: {"rain_sensor": 0}
+2024-09-20T21:42:01.538Z - Received message from soil_moisture_topic: {"soil_moisture": 17.71}
+2024-09-20T21:42:01.538Z - Received message from water_pump_topic: {"water_pump": 1}
+2024-09-20T21:42:01.538Z - Received message from ldr_topic: {"ldr": 0}
+2024-09-20T21:42:01.539Z - Received message from flame_sensor_topic: {"flame_sensor": 1}
+2024-09-20T21:42:01.539Z - Received message from motor_topic: {"motor": 1}
