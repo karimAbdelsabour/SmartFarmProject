@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/*font-family: "Roboto Mono", monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/*font-family: "Poppins", sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+:root{
+    --darkGreen: #143601;
+    --midGreen: #245501 ;
+    --lightGreen: #AAD576;
+    --green: #73A942;
+    --light: #ffffff;
+}
+
+/* navbar start */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: var(--darkGreen);
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--light);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7rem;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--light);
+    transition: linear 0.2s;
+    padding: 11px;
+    margin: 2px;
+}
+
+.nav-link:hover{
+    color: var(--midGreen);
+    background-color: var(--light);
+    border-radius: 100px; 
+    font-weight: 700;  
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: var(--light);
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: var(--light);
+        width: 100%;
+        /* border-radius: 10px; */
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+    
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+
+
+/* Hero Section Start */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('agri.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--light);
+}
+
+/* home page content */
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* button get started */
+.btn {
+    padding: 0.8rem 2rem;
+    background-color: var(--midGreen);
+    color: var(--light);
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--lightGreen);
+    color: var(--darkGreen);
+}
+
+container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section{
+    padding: 50px 100px 150px ;
+    border-radius: 25px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    align-items: center;
+    color: white;
+    
+}
+
+/* Information Sections Start */
+.info-section {
+    text-align: center;
+    background-color: var(#95D2B3);
+    border-radius: 10px;
+}
+
+/* control section */
+.section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(#D8EFD3);
+    padding-bottom: 50px;
+}
+
+
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+:root{
+    --darkGreen: #143601;
+    --midGreen: #245501;
+    --lightGreen: #AAD576;
+    --green: #73A942;
+    --light: #ffffff;
+}
+
+/* Info Sections Start */
+#control-section {
+    background-color: #55AD9B; /* Light green for control section */
+    font-size: 1.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('control.jpg') no-repeat center center/cover;
+    background-size: cover;
+    
+}
+
+
+#greenhouse-section {
+    background-color: #95D2B3; /* Dark green for greenhouse section */
+    font-size: 1.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('green.jpeg') no-repeat center center/cover;
+}
+
+#disease-section {
+    background-color: #D8EFD3; /* Light green for disease detection section */
+    font-size: 1.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('disease.jpg') no-repeat center center/cover;
+}
+
