@@ -1,0 +1,10 @@
+# Train/val/test set as 1) dir:path/to/imgs 2)file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: '/teamspace/studios/this_studio' # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/train #val images (relative to 'path')
+# Classes
+names:
+  0: CornCercosporaLeafSpot
+  1: CornCommonRust
+  2: CornHealthy
+  3: CornNorthenLeafBlight
